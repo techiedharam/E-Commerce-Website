@@ -540,6 +540,9 @@ footer .col:last-child > div img {
     font-size: 20px;
     gap: 20px;
   }
+  #mobile a {
+    color: black;
+  }
   #lg-bag  {
     display: none;
   }
@@ -589,18 +592,33 @@ footer .col:last-child > div img {
     padding: 10px 30px;
   }
   #hero {
-    padding: 0 20%;
-    background-position: 55%;
+    padding:7%;
+    background-position: 50%;
 }
 h1 {
     font-size: 22px;
     line-height: 35px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+#hero > p {
+  color: rgb(91, 4, 4);
+  font-weight: 700;
+}
+
+#hero > button {
+   margin-top: 50px;
+   /* color: rgb(91, 4, 4); */
+}
+
 #features {
   padding: 0px;
   justify-content: center;
   gap: 10px ;
+  margin-top: 25px;
 }
 
 #features .fe-box {
@@ -634,10 +652,13 @@ h1 {
 #newsletter .form {
   width: 100%;
 }
-footer {
-  justify-content: center;
+#footer {
+  margin-top: -50px;
+  justify-content: flex-start;
   flex-direction: column;
+  padding: 20px 30px;
   }
 }
+
 
 
